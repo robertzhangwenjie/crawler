@@ -10,7 +10,7 @@ from src import common
 class QichachaHome(object):
 
     # 微信绑定弹出框
-    bindwx_pop = By.CLASS_NAME,'bindwx'
+   
     # 弹出框关闭按钮
     bindwx_close_btn = By.CSS_SELECTOR,'#bindwxModal > div > div > div > button'
 
