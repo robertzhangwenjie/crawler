@@ -10,10 +10,6 @@ from selenium.webdriver.common.by import By
 # 判断元素是否存在,存在就返回该元素
 def is_element_exist(driver,element):
     try:
-        ret = driver.find_element(*element)
-    except (NoSuchElementException) as err:
-        print(err)
-        return False
     if ret:
         return ret
     return False
