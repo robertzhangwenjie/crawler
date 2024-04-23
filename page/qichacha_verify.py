@@ -13,7 +13,7 @@ import settings
 
 class QichachaVerifyPage(object):
 
-    def __init__(self):
+
         # 滑动按钮
         self.scroll_btn = By.ID,'nc_1_n1z'
         # 确定登录按钮
